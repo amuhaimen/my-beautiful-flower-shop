@@ -174,7 +174,7 @@ header {
 /* subscribe section styles */
 
 .subscribe {
-  background-image: url("../assets/subscribe.png");
+  background-image: url("/assets/subscribe.png");
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
