@@ -5,12 +5,90 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Flower Shop</title>
     <link rel="stylesheet" href="styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
-      <h1>My Beautiful Flower Shop</h1>
+      <div class="banner_container">
+        <div class="header_left">
+          <h1 class="banner_title">
+            Let's make <br />
+            beautiful flowers a <br />
+            part of your life.
+          </h1>
+          <p class="banner_description">
+            It is a long established fact that a reader will be distracted by
+            the readable <br />
+            content of a page when looking at its layout. The point of using
+            Lorem Ipsum is <br />
+            that it has a more-or-less normal distribution of letters.
+          </p>
+          <button class="btn_primary">Shop Now</button>
+        </div>
+        <div>
+          <img class="banner_img" src="/Flower_Asset/banner-img.png" alt="" />
+        </div>
+      </div>
     </header>
-    <main></main>
+
+    <main>
+      <!-- feature section start  -->
+      <section>
+        <h2 class="section_title">Our Featured Flowers</h2>
+        <p class="section_description">
+          It is a long established fact that a reader will be distracted by the
+          readable <br />
+          content of a page when looking at its layout.
+        </p>
+        <div class="feature_items_container">
+          <div>
+            <img
+              class="feature_item_one"
+              src="/Flower_Asset/feature_1.png"
+              alt=""
+            />
+            <p>Pink Flower Tree</p>
+          </div>
+          <div>
+            <img
+              class="feature_item_two"
+              src="/Flower_Asset/feature_2.png"
+              alt=""
+            />
+            <p>Pink Flower Tree</p>
+          </div>
+          <div>
+            <img
+              class="feature_item_three"
+              src="/Flower_Asset/feature_3.png"
+              alt=""
+            />
+            <p>Pink Flower Tree</p>
+          </div>
+        </div>
+      </section>
+      <!-- feature section end  -->
+      <!-- service section start  -->
+      <section class="service">
+        <div>
+          <img src="/Flower_Asset/service_icon_1.png" alt="" />
+          <p>Same Day Delivery. Click & Collect.</p>
+        </div>
+        <div>
+          <img src="/Flower_Asset/service_icon_2.png" alt="" />
+          <p>Fresh Flowers. Local Growers.</p>
+        </div>
+        <div>
+          <img src="/Flower_Asset/service_icon_3.png" alt="" />
+          <p>24/7 Free Support.</p>
+        </div>
+      </section>
+    </main>
     <footer></footer>
   </body>
 </html>
