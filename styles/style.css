@@ -1,12 +1,14 @@
 /* common styles */
-
+* {
+  margin: 0;
+}
 body {
   font-family: "Lato", sans-serif;
 }
 
-main {
+.max-width {
   max-width: 1440px;
-  margin: 0 auto;
+  margin: 128px auto 0 auto;
 }
 
 .btn_primary {
@@ -25,10 +27,6 @@ main {
   box-shadow: 0px 5px 15px black;
   transition: 0.3s ease-in-out;
   /* box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8); */
-}
-
-section {
-  margin-top: 128px;
 }
 
 .section_title {
@@ -133,7 +131,6 @@ header {
   background: rgba(39, 39, 39, 0.05);
   display: flex;
   align-items: center;
-
   gap: 100px;
   text-align: center;
   padding: 86px 175px;
@@ -141,9 +138,98 @@ header {
 
 .service p {
   color: rgba(39, 39, 39, 0.8);
-
   font-size: 23px;
   font-style: normal;
   font-weight: 600;
   line-height: 35px; /* 145.833% */
+}
+
+/* hot deals styles */
+
+.hot_deals_container {
+  background: rgba(229, 84, 115, 0.05);
+}
+
+.hot_deals {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 186px;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.pink {
+  color: #e55473;
+}
+
+/* instagram section styles */
+
+.insta_pics {
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
+}
+
+/* subscribe section styles */
+
+.subscribe {
+  background-image: url("../Flower_Asset/subscribe.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 122px 287px;
+  border-radius: 8px;
+}
+
+input {
+  width: 620px;
+  padding: 22px 22px;
+  border: none;
+  border-radius: 8px;
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-right: 16px;
+}
+
+input:hover {
+  box-shadow: 0px 4px 20px black;
+  transition: 0.3s ease-in-out;
+}
+
+footer {
+  background-color: black;
+  padding: 128px 0;
+  margin-top: 128px;
+}
+
+.footer_title {
+  color: #fff;
+  text-align: center;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.footer_description {
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+  margin-top: 24px;
+  margin-bottom: 32px;
+}
+.copy_rights {
+  color: rgba(255, 255, 255, 0.4);
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
